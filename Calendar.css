@@ -1,0 +1,22 @@
+/*============ calendar================================*/
+.QBZ_calendar *{ margin:0; padding:0;}
+.QBZ_calendar{ display:none; position:absolute; z-index:999999; height:230px; padding:5px 0 5px 5px; font:14px/1.5 "Microsoft Yahei"; overflow:hidden; background:#ECEEEF; border:1px solid #9C9; box-shadow:1px 1px 2px #5DD1FD; border-radius:3px;}
+.QBZ_calendar{-moz-user-select:none;-webkit-user-select:none;-ms-user-select:none;-khtml-user-select:none;user-select:none;}
+.QBZ_dl{ float:left; position:relative; width:210px; height:230px; margin-right:5px; _display:inline; }
+.QBZ_dt{ position:absolute; left:0; top:0; width:210px; height:50px; }
+.QBZ_time{width:100%; height:20px;line-height:20px; text-align:center;}
+.QBZ_week{float:left;width:30px; height:30px; line-height:30px; text-align:center;}
+.QBZ_dd{ position:absolute; left:0; top:50px; width:210px;height:180px;_overflow:hidden;}
+.QBZ_dd a{display:block; float:left; width:20px; height:20px; line-height:20px; padding:4px; margin:1px; background:#FFF; color:#333; font-size:14px; cursor:pointer; text-decoration:none; text-align:center; _display:inline-block;}
+.QBZ_dd a.day_disabled, .QBZ_dd a.day_disabled:hover{background:#FFF; color: #DCDCDC; cursor:default;}
+.QBZ_dd a.day_range{ background:#D9F2FF; color: #333;}
+.QBZ_dd a.day_hover{ background:#9BD6F2; color:#333;}
+.QBZ_dd a.day_start{ background:#44B549; color:#FFF;}
+.QBZ_dd a.day_end{ background:#44B549; color:#FFF;}
+.QBZ_dd a.day_today, .QBZ_dd a.day_today:hover{background:#F9984E; color:#FFF;}
+.QBZ_dd a:hover{ background:#5DD1FD; color:#FFF;}
+.QBZ_prev, .QBZ_next{ position:absolute; top:3px; z-index:100; display:block; width:25px; height:20px;  text-decoration:none; font:700 18px/20px  "Microsoft Yahei",sans-serif; }
+.QBZ_prev{left:5px; text-align:left;}
+.QBZ_next{right:5px; text-align:right;}
+.QBZ_prev:hover, .QBZ_next:hover{ color:#F00;}
+/*============ calendar================================*/
